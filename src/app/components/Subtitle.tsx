@@ -11,7 +11,7 @@ export default function Subtitle(props: SubtitleProps) {
   )
 }
 
-const SubtitleContainer = styled.h2`
+export const SubtitleContainer = styled.h2`
   font-size: 8rem;
   line-height: 1;
   text-transform: uppercase;
