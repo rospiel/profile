@@ -5,7 +5,7 @@ import detail from "../../detalhe.svg";
 export default function Main() {
   return (
     <MainContainer>
-      <img className="main-container__image" src={profile} alt="profile" />
+      <img className="main-container__image" src={profile} alt="profile" width="360" height="520" />
       <div>
         <h1 className="main-container__title">Software Engineer</h1>
         <p className="main-container__subtitle" >Localizado em São Paulo</p>
