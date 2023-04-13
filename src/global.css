@@ -1,3 +1,15 @@
+:root {
+  --first-color: #141414;
+  --second-color: #f5f5f5;
+  --third-color: #525252;
+  --fourth-color: #fff;
+  --fifth-color: #000;
+  --sixth-color: #a3a3a3;
+  --seventh-color: #8f8f8f;
+  --first-linear-gradient-color_one: #b6f829;
+  --first-linear-gradient-color_two: #67dd0a;
+}
+
 body {
   margin: 0px;
   font-family: "Fira Sans", Arial, sans-serif;

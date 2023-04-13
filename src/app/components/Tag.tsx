@@ -26,7 +26,7 @@ const TagContainer = styled.ul`
     font-size: 0.875rem;
     line-height: 1.4;
     border-radius: 4px;
-    background: #ffffff;
+    background: var(--fourth-color);
     padding: 5px 10px;
   }
 `

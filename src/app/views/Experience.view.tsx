@@ -56,11 +56,11 @@ const ExperienceContainer = styled.section`
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
-    color: #525252;
+    color: var(--third-color);
   }
 
   .experience-container__text strong {
-    color: #141414;
+    color: var(--first-color);
   }
 
   @media (max-width: 800px) {

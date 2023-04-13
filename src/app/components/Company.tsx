@@ -28,7 +28,7 @@ const CompanyContainer = styled.div`
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: #f5f5f5;
+  background: var(--second-color);
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
@@ -38,7 +38,7 @@ const CompanyContainer = styled.div`
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(var(--first-linear-gradient-color_one), var(--first-linear-gradient-color_two));
     position: absolute;
     top: 20px;
     left: -4px;
@@ -48,7 +48,7 @@ const CompanyContainer = styled.div`
     position: absolute;
     top: 22px;
     left: -100px;
-    color: #525252;
+    color: var(--third-color);
     font-size: 0.875rem;
     width: 80px;
     text-align: right;
@@ -63,7 +63,7 @@ const CompanyContainer = styled.div`
   .company-container__description {
     font-size: 0.875rem;
     line-height: 1.4;
-    color: #525252;
+    color: var(--third-color);
   }
 
   @media (max-width: 800px) {

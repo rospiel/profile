@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default function Footer() {
   return (
-    <FooterContainer id="#contact">
+    <FooterContainer id="contact">
       <div className="footer-container__content">
         <p className="footer-container__text">
           Entre em contato comigo e marcamos uma conversa.
@@ -19,7 +19,7 @@ export default function Footer() {
 }
 
 const FooterContainer = styled.footer`
-  background: #000;
+  background: var(--fifth-color);
 
   .footer-container__content {
     max-width: 1200px;
@@ -34,25 +34,25 @@ const FooterContainer = styled.footer`
   .footer-container__text {
     font-size: 1.5rem;
     line-height: 1.33;
-    color: #ccc;
+    color: var(--fourth-color);
   }
 
   .footer-container__contact {
     font-weight: bold;
     font-size: 2.25rem;
     line-height: 1.1;
-    color: #fff;
+    color: var(--fourth-color);
     margin-bottom: 30px;
   }
 
   .footer-container__link {
-    color: #fff;
+    color: var(--fourth-color);
   }
 
   .footer-container__copy {
     grid-column: 1 / -1;
     font-size: 1.125rem;
-    color: #8f8f8f;
+    color: var(--seventh-color);
   }
 
   @media (max-width: 800px) {

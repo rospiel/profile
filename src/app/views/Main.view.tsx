@@ -42,7 +42,7 @@ const MainContainer = styled.main`
 
   .main-container__subtitle {
     font-size: 1.5rem;
-    color: #525252;
+    color: var(--third-color);
   }
 
   @media (max-width: 1000px) {

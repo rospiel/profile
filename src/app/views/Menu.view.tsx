@@ -5,8 +5,8 @@ export default function Menu() {
     <MenuContainer>
       <ul className="menu-container__options">
         <li><a className="menu-container__link" href="#experience">Experience</a></li>
-        <li><a className="menu-container__link"  href="#vocational">Vocational</a></li>
-        <li><a className="menu-container__link"  href="#contact">Contact</a></li>
+        <li><a className="menu-container__link" href="#qualification">Qualification</a></li>
+        <li><a className="menu-container__link" href="#contact">Contact</a></li>
       </ul>
     </MenuContainer>
   )
@@ -25,13 +25,13 @@ const MenuContainer = styled.nav`
     line-height: 1.3;
     padding: 10px 20px;
     text-decoration: none;
-    color: #141414;
+    color: var(--first-color);
     display: block;
   }
 
   @media (max-width: 800px) {
     .menu-container__link {
-      background: #f5f5f5;
+      background: var(--second-color);
     }
   }
 `

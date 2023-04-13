@@ -17,10 +17,10 @@ export const SubtitleContainer = styled.h2`
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
-  color: ${(props) => props.color || "#141414"};
+  color: ${(props) => props.color || "var(--first-color)"};
 
   @media (max-width: 800px) {
-    color: #141414;
+    color: var(--first-color);
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial;

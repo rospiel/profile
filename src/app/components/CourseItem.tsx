@@ -36,7 +36,7 @@ const CourseItemContainer = styled.div<{isCssModifier?: boolean}>`
   .course-item-container__session-name {
     font-size: 0.875rem;
     line-height: 1.4;
-    color: #8f8f8f;
+    color: var(--seventh-color);
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;
@@ -67,7 +67,7 @@ const CourseItemContainer = styled.div<{isCssModifier?: boolean}>`
   }
 
   .course-item-container__hour {
-    color: #8f8f8f;
+    color: var(--seventh-color);
   }
 
   @media (max-width: 800px) {

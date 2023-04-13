@@ -75,8 +75,8 @@ export default function Qualification() {
 }
 
 const QualificationContainer = styled.section`
-  background: #141414;
-  color: #fff;
+  background: var(--first-color);
+  color: var(--fourth-color);
 
   .qualification-container__content {
     max-width: 1200px;
@@ -104,11 +104,11 @@ const QualificationContainer = styled.section`
     line-break: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
-    color: #a3a3a3;
+    color: var(--sixth-color);
   }
 
   .qualification-container__description strong {
-    color: #fff;
+    color: var(--fourth-color);
   }
 
   @media (max-width: 800px) {
@@ -119,7 +119,7 @@ const QualificationContainer = styled.section`
     }
 
     ${SubtitleContainer} {
-      color: #fff;
+      color: var(--fourth-color);
     }
 
     .qualification-container__description {

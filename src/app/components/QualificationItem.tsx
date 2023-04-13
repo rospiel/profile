@@ -37,7 +37,7 @@ const QualificationItemContainer = styled.ul`
 
   .qualification-item-container__college {
     flex: 1 /* every item with the same size */;
-    background: #000;
+    background: var(--fifth-color);
     padding: 20px;
     border-radius: 4px;
     display: flex;
@@ -47,7 +47,7 @@ const QualificationItemContainer = styled.ul`
   .qualification-item-container__type-college {
     font-size: 0.875rem;
     text-transform: uppercase;
-    color: #a3a3a3;
+    color: var(--sixth-color);
     margin-bottom: 10px;
   }
 
@@ -64,13 +64,13 @@ const QualificationItemContainer = styled.ul`
     display: block;
     width: 4px;
     height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
+    background: linear-gradient(var(--first-linear-gradient-color_one), var(--first-linear-gradient-color_two));
     position: absolute;
     left: -24px;
   }
 
   .qualification-item-container__name {
     font-size: 1.125rem;
-    color: #a3a3a3;
+    color: var(--sixth-color);
   }
 `
